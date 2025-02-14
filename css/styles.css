@@ -144,18 +144,13 @@ background: #434455;
   background-color: #404BBF;
   cursor: pointer;
 }
-.zag .visually-hidden{
+.zag{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color:#2e2f42;
   letter-spacing: 0.02em;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
+  margin-bottom: 8px;
 }
 .para{
   line-height: 1.5;
@@ -222,4 +217,12 @@ background: #434455;
   margin: -1px;
   border: 0;
   padding: 0;
+}
+.section-one-list{
+  display: flex;
+  gap: 24px;
+
+}
+.section-one-item{
+  width: calc((100% - 72px) / 4);
 }
