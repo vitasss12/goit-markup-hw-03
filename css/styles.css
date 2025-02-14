@@ -52,6 +52,16 @@ line-height: 60;
 letter-spacing: 0.02em;
 text-align: center;
 }
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px; 
+  margin: -1px;
+  padding: 0;  
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0); 
+  border: 0;
+  }
 .link-header{
   border-bottom: 1px solid #e7e9fc;
   font-style: normal;
@@ -221,18 +231,9 @@ background: #434455;
 .section-one-list{
   display: flex;
   gap: 24px;
-
-}
-.section-one-item{
   width: calc((100% - 72px) / 4);
 }
-.visually-hidden{
-position: absolute;
-width: 1px;
-height: 1px; 
-margin: -1px;
-padding: 0;  
-overflow: hidden;
-clip: rect(0, 0, 0, 0); 
-border: 0;
+.section-one-item{
+  width: calc(100% - 72px) / 4;
 }
+
