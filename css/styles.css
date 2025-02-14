@@ -203,7 +203,7 @@ background: #434455;
   text-align: center;
   text-transform: capitalize;
   color:#2e2f42;
-  margin-bottom: 8px
+  margin-bottom: 72px;
 }
 .portfolio{
   font-weight: 500;
@@ -215,6 +215,7 @@ background: #434455;
 .portfolio-name{
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .footer{
   background-color:#2e2f42;
