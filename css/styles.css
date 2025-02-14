@@ -168,6 +168,7 @@ background: #434455;
 }
 .section-two{
   background-color: #F4F4FD;
+  padding: 120px 0;
 }
 .zag-two{
   font-size: 36px;
@@ -175,6 +176,7 @@ background: #434455;
   text-align: center;
   text-transform: capitalize;
   color:#2e2f42;
+  margin-bottom: 72px;
 }
 .pic{
   background-color: #FFFFFF
@@ -239,4 +241,8 @@ background: #434455;
 }
 .section-tree{
   padding-top: 120px; padding-bottom: 120px;
+}
+.list-prof{
+  display: flex;
+  gap: 24px;
 }
