@@ -37,6 +37,12 @@ color: #F4F4FD;
   letter-spacing: 0.03em;
   text-transform:uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
+}
+.menu{
+  display: flex;
+  gap: 40px;
+
 }
 h1{
 font-family: "Roboto";
@@ -47,7 +53,8 @@ letter-spacing: 0.02em;
 text-align: center;
 }
 .link-header{
-  font-style: normal
+  border-bottom: 1px solid #e7e9fc;
+  font-style: normal;
 }
 .link-head{
   font-family: "Roboto";
@@ -59,6 +66,11 @@ text-align: center;
   color: #2e2f42;
   background:  #2e2f42;
   text-align: left;
+  padding: 24px 0;
+}
+.address-list{
+  display: flex;
+  gap: 40px;
 }
 .link-head:hover,
 .link-head:focus{
