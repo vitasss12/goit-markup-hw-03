@@ -30,6 +30,7 @@ color:#2e2f42;}
 color: #F4F4FD;
 }
 .logo {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -38,7 +39,7 @@ color: #F4F4FD;
   text-transform:uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  display: inline-block;
+  
   margin-bottom: 16px;
 }
 .menu{
@@ -264,6 +265,7 @@ background: #434455;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin-bottom: 8px
 }
 .portfolio-item{
   width: calc((100% - 48px) / 3);
