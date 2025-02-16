@@ -216,12 +216,13 @@ background: #434455;
 .person{
   padding: 32px 0
 }
-.portfolio {
+.portfolio{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color:#2e2f42;
   margin-bottom: 8px;
+
 }
 .portfolio-list {
   display: flex;
@@ -230,6 +231,7 @@ background: #434455;
   row-gap: 48px;
 }
 .portfolio-item{
+ background-color: #FFFFFF;
  border-radius: 0px 0px 4px 4px;
  width: calc((100%-48px)/3);
 }
