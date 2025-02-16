@@ -126,7 +126,7 @@ letter-spacing: 0.02em;
 text-align: left;
 background: #434455;
 }
-.section-zero{
+.section-one{
   background-color:#2e2f42;
   padding: 188px 0;
 
@@ -170,11 +170,11 @@ background: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.section-two{
+.section-tree{
   background-color: #F4F4FD;
   padding: 120px 0;
 }
-.zag-two{
+.zag-tree{
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -247,14 +247,14 @@ background: #434455;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.section-one-list{
+.section-two-list{
   display: flex;
   gap: 24px;
 }
-.section-one-item{
+.section-two-item{
   width: calc((100% - 72px) / 4);
 }
-.section-tree{
+.section-four{
   padding-top: 120px; padding-bottom: 120px;
 }
 .list-prof{
