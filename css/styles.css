@@ -83,6 +83,7 @@ text-align: center;
 .link-header{
   border-bottom: 1px solid #e7e9fc;
   font-style: normal;
+  display: flex;
 }
 .link-head{
   font-family: "Roboto";
@@ -154,6 +155,7 @@ background: #434455;
   max-width: 496px;
 }
 .button-order{
+  display: block;
   background-color: #4D5AE5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
