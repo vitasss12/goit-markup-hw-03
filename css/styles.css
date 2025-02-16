@@ -41,7 +41,6 @@ display: inline-block;
   color: #4d5ae5;
   margin-right: 76px;
   
-  margin-bottom: 16px;
 }
 .menu{
   display: flex;
@@ -185,7 +184,7 @@ background: #434455;
 .pic{
   background-color: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px)/4);
 }
 .name{
   font-weight: 500;
@@ -212,7 +211,7 @@ background: #434455;
   margin-bottom: 8px
 }
 .portfolio-item{
-  width: calc((100% - 48px) / 4);
+  width: calc((100%-48px) / 4);
 }
 .portfolio-info{
   padding: 32px 16px;
@@ -271,7 +270,7 @@ background: #434455;
   gap: 24px;
 }
 .section-two-item{
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px)/4);
 }
 .section-four{
   padding-top: 120px; padding-bottom: 120px;
@@ -279,4 +278,8 @@ background: #434455;
 .list-prof{
   display: flex;
   gap: 24px;
+}
+.footer-logo{
+  margin-bottom: 16px;
+  display: inline-block;
 }
