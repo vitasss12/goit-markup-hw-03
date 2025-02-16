@@ -202,6 +202,13 @@ background: #434455;
 .person{
   padding: 32px 0
 }
+.portfolio{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color:#2e2f42;
+  margin-bottom: 8px;
+}
 .portfolio-list{
   display: flex;
   flex-wrap: wrap;
@@ -223,12 +230,6 @@ background: #434455;
   text-transform: capitalize;
   color:#2e2f42;
   margin-bottom: 72px;
-}
-.portfolio{
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color:#2e2f42;
 }
 .portfolio-name{
   line-height: 1.5;
@@ -258,12 +259,15 @@ background: #434455;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.section-two{
+  padding: 120px 0;
+}
 .section-two-list{
   display: flex;
   gap: 24px;
 }
 .section-two-item{
-  flex-basis: calc((100%-3*24px)/4)
+  width: calc((100% - 72px) / 4);
 }
 .section-four{
   padding-top: 120px; padding-bottom: 120px;
