@@ -28,7 +28,6 @@ img{
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  border-bottom: 1px solid #e7e9fc;
 }
 .nav{
   display: flex;
@@ -39,7 +38,7 @@ img{
     text-decoration: none;
 }
 .studio{
-background: #2E2F42;
+
 font-family: "Raleway", serif;
 color:#2e2f42;}
 .studio-footer{
@@ -96,9 +95,9 @@ text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  background:  #2e2f42;
   text-align: left;
   padding: 24px 0;
+  display: block;
 }
 .address-list{
   display: flex;
@@ -109,7 +108,8 @@ text-align: center;
 color:#404bbf;
 }
 .address-head{
-  font-style: normal
+  font-style: normal;
+  margin-left: auto;
 }
 .link-address{
 font-family: "Roboto";
@@ -119,7 +119,6 @@ font-weight: 400;
 letter-spacing: 0.02em;
 text-align: left;
 color:#434455;
-background: #434455;
 line-height: 1.5
 }
 .link-address:focus, 
@@ -133,7 +132,6 @@ font-weight: 500;
 line-height: 24;
 letter-spacing: 0.02em;
 text-align: left;
-background: #2E2F42;
 }
 h3{
 font-family: "Roboto";
@@ -142,7 +140,6 @@ font-weight: 400;
 line-height: 24;
 letter-spacing: 0.02em;
 text-align: left;
-background: #434455;
 }
 .section-one{
   background-color:#2e2f42;
@@ -156,6 +153,7 @@ background: #434455;
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin: 0 auto 48px;
 }
 .button-order{
   display: block;
@@ -270,6 +268,7 @@ background: #434455;
   line-height: 1.5;
   color:#F4F4FD;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .section-two{
   padding: 120px 0;
